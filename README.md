@@ -4,4 +4,4 @@ running, each task can spawn a new task or more that can feasibly be executed in
 When a processor runs out of work, it looks at the queues of other processors and steals their work items.
 Each processor is a thread which maintains local work queue. A processor can push and pop tasks from its local queue. When it runs out of work, in order for a processor to steal from another one, it should select first a ”victim” from which it will steal the task. 
 <br>
-A full description of the assignment can be found [here](https://www.cs.bgu.ac.il/~spl171/wiki.files/spl171-assignment2.pdf)
+A full description of the assignment can be found [here](https://www.cs.bgu.ac.il/~spl171/wiki.files/spl171-assignment2.pdf).
